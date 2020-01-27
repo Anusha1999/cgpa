@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jsonfile.json"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+    table, th, td {
+                      border: 3px solid black;
+                      text-align: center;
+                      padding:20px;
+                      border:2px solid red;
+                      border-radius: 5px;
+                      
+                 }
+                 button{
+                     color:snow;
+                     background: teal;
+                     padding:11px;
+                     border:2px solid gold;
+                     margin:10px;
+                     
+                 }
+                 button:hover{
+                    transform: scale(1.05);
+
+                 }
+
+                 th{
+                     color:darkred;
+                 }
+                 tr{
+                     color:indigo;
+                     background:gainsboro;
+                 }
+                 table{
+                     width:50%;
+                     margin:30px;
+                     margin-left:280px;
+                  
+                     
+                 }
+    </style>
+    <body style="text-align: center; margin-top:50px">
+        <h1 style="color:seagreen"> My CGPA</h1>
+        <button id="button" onclick="load()">Click me for result</button>
+        <button onclick="myfun()">Clear data</button>
+        <div id="content">
+            
+                
+        </div>
+
+    </body>
+</html>

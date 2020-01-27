@@ -1,0 +1,38 @@
+
+ [
+    {
+  "Code":"CSE439",
+  "Name":"capstone-2",
+  "Grade":"B+",
+  "Credits":8
+     
+   }
+,
+   {
+    "Code":"INT418",
+    "Name":"information and security",
+    "Grade":"A",
+    "Credits":3
+   }
+   ,
+   {
+    "Code":"ECE363",
+    "Name":"Creating an Iot device",
+    "Grade":"A",
+    "Credits":2
+   }
+   ,
+   {
+    "Code":"HRT410",
+    "Name":"Urban Houticulture",
+    "Grade":"O",
+    "Credits":2
+   }
+   ,
+   {
+    "Code":"FST704",
+    "Name":"Visual Merchandinsing",
+    "Grade":"O",
+    "Credits":3
+   }
+]
